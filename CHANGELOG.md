@@ -8,3 +8,4 @@
 
 - create home page with flet (flutter)
 - signin and signup pages, local user database with YAML and md5
+- first model striped and finetuned from camembert-base
