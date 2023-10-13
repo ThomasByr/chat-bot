@@ -2,12 +2,21 @@
 #        to ensure reproducibility of the environment ;
 #        exceptions are made for some minor versions
 
-termcolor         == 2.3.*     # colored output
-typing-extensions == 4.6.*     # typing_extensions module
-python-dotenv     == 1.0.*     # load environment variables from .env file
+termcolor            == 2.3.*     # colored output
+typing-extensions    == 4.6.*     # typing_extensions module
+python-dotenv        == 1.0.*     # load environment variables from .env file
 
-Scrapy            == 2.11.*    # web scraping framework
-flet              == 0.10.*    # interactive apps for web, desktop and mobile (flutter)
+Scrapy               == 2.11.*    # web scraping framework
+flet                 == 0.10.*    # interactive apps for web, desktop and mobile (flutter)
 
-pyjson5           == 1.6.*     # for parsing json5 files
-alive-progress    == 3.1.*     # for progress bars
+pyjson5              == 1.6.*     # for parsing json5 files
+alive-progress       == 3.1.*     # for progress bars
+
+torch                >= 2.1.0+cu118 , < 2.2.0
+torchaudio           >= 2.1.0+cu118 , < 2.2.0
+torchvision          >= 0.16.0+cu118, < 0.17.0
+
+transformers         == 4.34.*    # for NLP
+huggingface-hub[cli] == 0.17.*    # to manage models from the hub
+sentencepiece        == 0.1.*     # for fast tokenization
+protobuf             == 4.24.*    # for serialization
