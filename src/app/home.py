@@ -3,7 +3,7 @@ import flet as ft
 
 from .widgets import Message, MessageType, ChatMessage, SignInForm, SignUpForm
 from ..db import UsersDB
-
+from ..bot import get_build_response
 
 __all__ = ["home_page"]
 
@@ -71,6 +71,10 @@ def home_page(page: ft.Page):
 
     page.pubsub.subscribe(on_message)
 
+    def build_response(message: str):
+        # maybe preprocess message
+        return get_build_response(message)
+
     def send_message_click(_):
         page.pubsub.send_all(
             Message(
@@ -79,7 +83,18 @@ def home_page(page: ft.Page):
                 message_type=MessageType.CHAT_MSG,
             )
         )
+        tmp = new_message.value
         new_message.value = ""
+        new_message.focus()
+        res = build_response(tmp)
+        if res:
+            page.pubsub.send_all(
+                Message(
+                    user_name="Chat Flet Messenger Bot",
+                    text=res,
+                    message_type=MessageType.CHAT_MSG,
+                )
+            )
         page.update()
 
     def btn_signin(_):
