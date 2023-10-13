@@ -1,4 +1,4 @@
-# <img src="assets/icon/ico.512.png" alt="icon" width="4%"/> chat-bot - Chat Bot and Web Scraper
+# <img src="assets/favicon.png" alt="icon" width="4%"/> chat-bot - Chat Bot and Web Scraper
 
 [![GitHub license](https://img.shields.io/github/license/ThomasByr/chat-bot)](https://github.com/ThomasByr/chat-bot/blob/master/LICENSE)
 [![GitHub commits](https://badgen.net/github/commits/ThomasByr/chat-bot)](https://GitHub.com/ThomasByr/chat-bot/commit/)
@@ -76,6 +76,18 @@ Simply sign-in or sign-up to the app, and you will be able to chat with the bot 
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
 | ![Sign In](assets/images/signin.png) | ![Sign Up](assets/images/signup.png) | ![Home Page](assets/images/home.png) |
 
+To scan cached models, run :
+
+```bash
+huggingface-cli scan-cache
+```
+
+to delete one or more cached models, run :
+
+```bash
+huggingface-cli delete-cache
+```
+
 ## 🧑‍🏫 Contributing
 
 If you ever want to contribute, either request the contributor status, or, more manually, fork the repo and make a pull request !
@@ -147,6 +159,7 @@ Please read the [changelog](changelog.md) file for the full history !
 
 - create home page with flet (flutter)
 - signin and signup pages, local user database with YAML and md5
+- first model striped and finetuned from camembert-base
 
 </details>
 
