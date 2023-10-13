@@ -12,7 +12,7 @@
 [![Author](https://img.shields.io/badge/author-@LouiseCouture-blue)](https://github.com/LouiseCouture)
 
 1. [✏️ Setup](#️-setup)
-2. [👩‍🏫 Usage](#-usage)
+2. [🔧 Usage](#-usage)
 3. [🧑‍🏫 Contributing](#-contributing)
 4. [⚖️ License](#️-license)
 5. [🔄 Changelog](#-changelog)
@@ -28,7 +28,7 @@
 >
 > Please note we do not officially support Windows or MacOS, but we do provide some instructions for those who want to use it on these platforms.
 
-You do not explicitly need a conda environment for the bot to run. But it is always recommended nontheless, especially because the next LTS of Ubuntu won't let users pip-install anything without a virtual environment. At the time of writing, this app `python >= 3.11` to run.
+You do not explicitly need a conda environment for the bot to run. But it is always recommended nontheless, especially because the next LTS of Ubuntu won't let users pip-install anything without a virtual environment. At the time of writing, this app `python >= 3.10` to run.
 
 First, install the dependencies :
 
@@ -66,7 +66,13 @@ or in the foreground :
 python main.py
 ```
 
-## 👩‍🏫 Usage
+## 🔧 Usage
+
+Simply sign-in or sign-up to the app, and you will be able to chat with the bot and even chat with other users connected to the same server ! The bellow screenshots are from the desktop version, with WSL2 and Ubuntu 22.04.
+
+| Sign In                              | Sign Up                              | Home Page                            |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| ![Sign In](assets/images/signin.png) | ![Sign Up](assets/images/signup.png) | ![Home Page](assets/images/home.png) |
 
 ## 🧑‍🏫 Contributing
 
