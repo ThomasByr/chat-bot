@@ -37,9 +37,12 @@ class SignInForm(ft.UserControl):
             size=30,
         )
 
-        self.text_user = ft.TextField(label="User Name")
+        self.text_user = ft.TextField(label="User Name", on_submit=self.btn_signin)
         self.text_password = ft.TextField(
-            label="Password", password=True, can_reveal_password=True
+            label="Password",
+            password=True,
+            can_reveal_password=True,
+            on_submit=self.btn_signin,
         )
         self.text_signin = ft.ElevatedButton(
             text="Sign in",
