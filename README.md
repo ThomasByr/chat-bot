@@ -1,7 +1,5 @@
 # chat-bot - Chat Bot and Web Scraper
 
-[![Linux](https://svgshare.com/i/Zhy.svg)](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
-[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
 [![GitHub license](https://img.shields.io/github/license/ThomasByr/chat-bot)](https://github.com/ThomasByr/chat-bot/blob/master/LICENSE)
 [![GitHub commits](https://badgen.net/github/commits/ThomasByr/chat-bot)](https://GitHub.com/ThomasByr/chat-bot/commit/)
 [![GitHub latest commit](https://badgen.net/github/last-commit/ThomasByr/chat-bot)](https://gitHub.com/ThomasByr/chat-bot/commit/)
@@ -10,6 +8,8 @@
 [![Python Package](https://github.com/ThomasByr/chat-bot/actions/workflows/python-package.yml/badge.svg)](https://github.com/ThomasByr/chat-bot/actions/workflows/python-package.yml)
 [![GitHub release](https://img.shields.io/github/release/ThomasByr/chat-bot)](https://github.com/ThomasByr/chat-bot/releases/)
 [![Author](https://img.shields.io/badge/author-@ThomasByr-blue)](https://github.com/ThomasByr)
+[![Author](https://img.shields.io/badge/author-@Bas6700-blue)](https://github.com/Bas6700)
+[![Author](https://img.shields.io/badge/author-@LouiseCouture-blue)](https://github.com/LouiseCouture)
 
 1. [✏️ Setup](#️-setup)
 2. [👩‍🏫 Usage](#-usage)
