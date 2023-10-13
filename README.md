@@ -1,4 +1,4 @@
-# chat-bot - Chat Bot and Web Scraper
+# <img src="assets/icon/ico.512.png" alt="icon" width="4%"/> chat-bot - Chat Bot and Web Scraper
 
 [![GitHub license](https://img.shields.io/github/license/ThomasByr/chat-bot)](https://github.com/ThomasByr/chat-bot/blob/master/LICENSE)
 [![GitHub commits](https://badgen.net/github/commits/ThomasByr/chat-bot)](https://GitHub.com/ThomasByr/chat-bot/commit/)
@@ -37,6 +37,8 @@ sudo apt-get update
 sudo apt-get install libgtk-3-0
 sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav  gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
 ```
+
+Then clone the repository and cd into it :
 
 ```bash
 # Clones the repository
