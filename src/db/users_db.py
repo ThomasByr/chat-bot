@@ -1,7 +1,7 @@
 import os
 import hashlib
 
-import yaml
+import yaml as yml
 
 
 __all__ = ["UsersDB"]
@@ -17,11 +17,11 @@ class UsersDB:
         users: dict[str, str] = {}
         filename = "test_users.yml" if test else "users.yml"
         with open(os.path.join(self.CACHE_FOLDER, "default_users.yml"), "r") as f:
-            for user in yaml.safe_load(f)["users"]:
+            for user in yml.safe_load(f)["users"]:
                 users[user["username"]] = user["password"]
         try:
             with open(os.path.join(self.CACHE_FOLDER, filename), "r") as f:
-                for user in yaml.safe_load(f)["users"]:
+                for user in yml.safe_load(f)["users"]:
                     users[user["username"]] = user["password"]
         except FileNotFoundError:
             pass
@@ -41,14 +41,14 @@ class UsersDB:
         users = []
         try:
             with open(os.path.join(self.CACHE_FOLDER, filename), "r") as f:
-                users = yaml.safe_load(f)["users"]
+                users = yml.safe_load(f)["users"]
         except FileNotFoundError:
             pass
         except TypeError:
             pass
         users.append({"username": user_name, "password": password})
         with open(os.path.join(self.CACHE_FOLDER, filename), "w") as f:
-            yaml.dump({"users": users}, f)
+            yml.dump({"users": users}, f)
 
     def reset_test_db(self):
         if os.path.exists(self.CACHE_FOLDER):
