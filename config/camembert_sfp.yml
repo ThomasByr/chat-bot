@@ -1,0 +1,2 @@
+task: question-answering
+model: etalab-ia/camembert-base-squadFR-fquad-piaf
