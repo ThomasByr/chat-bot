@@ -42,8 +42,8 @@ Then clone the repository and cd into it :
 
 ```bash
 # Clones the repository
-git clone <your-repository-url>
-cd <your-repository-name>
+git clone git@github.com:ThomasByr/chat-bot.git
+cd chat-bot
 ```
 
 You can create and activate a conda environment with the following commands (make sure to give it a name in [environment.yml](environment.yml)) :
@@ -163,6 +163,7 @@ Please read the [changelog](changelog.md) file for the full history !
 
 - [ ] add a "forgot password", "change password" and "delete account" feature
 - [ ] initial message when the user first connects
+- [ ] use custom data
 
 **Known Bugs** (latest fix)
 
