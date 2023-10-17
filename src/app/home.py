@@ -3,7 +3,7 @@ import flet as ft
 
 from .widgets import Message, MessageType, ChatMessage, SignInForm, SignUpForm
 from ..db import UsersDB
-from ..bot import get_build_response
+from ..bot import Model
 
 __all__ = ["home_page"]
 
@@ -16,6 +16,9 @@ def home_page(page: ft.Page):
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.theme_mode = ft.ThemeMode.DARK
+
+    logger.info("loading model")
+    model = Model()
 
     # %% Functions
     def dropdown_changed(e):
@@ -73,7 +76,7 @@ def home_page(page: ft.Page):
 
     def build_response(message: str):
         # maybe preprocess message
-        return get_build_response(message)
+        return model.get_build_response(message)
 
     def send_message_click(_):
         page.pubsub.send_all(
