@@ -113,9 +113,9 @@ exclude = [".github", "docs"]
 packages = ["src"]
 
 [project.urls]
-Documentation = "https://github.com/ThomasByr/python-app/wiki"
-Issues        = "https://github.com/ThomasByr/python-app/issues"
-Source        = "https://github.com/ThomasByr/python-app"
+Documentation = "https://github.com/ThomasByr/chat-bot/wiki"
+Issues        = "https://github.com/ThomasByr/chat-bot/issues"
+Source        = "https://github.com/ThomasByr/chat-bot"
 
 [tool.hatch.envs.dev]
 path     = ".hatch"
