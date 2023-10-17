@@ -20,8 +20,8 @@ class Model:
         with open(self.config_path, "r") as f:
             config = yml.safe_load(f)
 
-        task = config["task"]
-        model = config["model"]
+        task: str = config["task"]
+        model: str = config["model"]
         tokenizer = model[::]
 
         try:
@@ -43,10 +43,10 @@ class Model:
         self.context = "".join(
             (
                 f"nom batterie: {row['nom_batterie']}, "
-                "puissance {row['pui_batterie_mAh']} mAh, "
-                "tension {row['tension_V']} V, "
-                "poids {row['poids_g']} g, "
-                "prix {row['prix_euro']} euro ;\n"
+                f"puissance {row['pui_batterie_mAh']} mAh, "
+                f"tension {row['tension_V']} V, "
+                f"poids {row['poids_g']} g, "
+                f"prix {row['prix_euro']} euro ;\n"
                 for _, row in raw_context.iterrows()
             )
         )
