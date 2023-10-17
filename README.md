@@ -76,18 +76,6 @@ Simply sign-in or sign-up to the app, and you will be able to chat with the bot 
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
 | ![Sign In](assets/images/signin.png) | ![Sign Up](assets/images/signup.png) | ![Home Page](assets/images/home.png) |
 
-To scan cached models, run :
-
-```bash
-huggingface-cli scan-cache
-```
-
-to delete one or more cached models, run :
-
-```bash
-huggingface-cli delete-cache
-```
-
 ## 🧑‍🏫 Contributing
 
 If you ever want to contribute, either request the contributor status, or, more manually, fork the repo and make a pull request !
@@ -161,13 +149,24 @@ Please read the [changelog](changelog.md) file for the full history !
 - signin and signup pages, local user database with YAML and md5
 - first model striped and finetuned from camembert-base
 
+**v0.2** model
+
+- changed model to camembert-base
+- the model now outputs heatmaps
+- data loader can now "slide" context windows
+
 </details>
 
 ## 🐛 Bugs and TODO
 
 **TODO** (first implementation version)
 
+- [ ] add a "forgot password", "change password" and "delete account" feature
+- [ ] initial message when the user first connects
+
 **Known Bugs** (latest fix)
+
+- [ ] fix the bug where the context window of the data loader cuts in the middle of a line
 
 ## 🎨 Logo and Icons
 
