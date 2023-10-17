@@ -15,7 +15,7 @@ class Model:
     models_cache = os.path.join("cache", "models")
 
     def __init__(self):
-        self.logger = logging.getLogger("Model")
+        self.logger = logging.getLogger("model")
 
         with open(self.config_path, "r") as f:
             config = yml.safe_load(f)
