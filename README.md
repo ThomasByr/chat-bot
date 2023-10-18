@@ -164,6 +164,7 @@ Please read the [changelog](changelog.md) file for the full history !
 - [ ] add a "forgot password", "change password" and "delete account" feature
 - [ ] initial message when the user first connects
 - [ ] use custom data
+- [ ] typing indicator for the bot
 
 **Known Bugs** (latest fix)
 
