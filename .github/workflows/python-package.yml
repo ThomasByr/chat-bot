@@ -15,8 +15,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
-      # Max 1 concurrent job per OS
-      max-parallel: 1
+      max-parallel: 5
       matrix:
         os: [ubuntu-latest, windows-latest]
         python-version: ["3.10", 3.11"]
