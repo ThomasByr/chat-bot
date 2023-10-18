@@ -45,7 +45,7 @@ import logging
 
 import flet as ft
 
-from src import home_page
+from src.app import home_page
 from src.helper.logger import init_logger
 
 if __name__ == "__main__":
