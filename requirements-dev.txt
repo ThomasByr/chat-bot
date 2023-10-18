@@ -1,4 +1,13 @@
--r requirements.txt
+termcolor            == 2.3.*
+typing-extensions    == 4.6.*
+python-dotenv        == 1.0.*
+
+Scrapy               == 2.11.*
+flet                 == 0.10.*
+pandas               == 2.1.*
+
+pyjson5              == 1.6.*
+alive-progress       == 3.1.*
 
 hatch
 pytest
