@@ -18,7 +18,7 @@ def home_page(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
 
     logger.info("loading model")
-    model = Model()
+    model = Model()  # new model per session
 
     # %% Functions
     def dropdown_changed(e):
