@@ -6,6 +6,7 @@
 termcolor            == 2.3.*          # colored output
 typing-extensions    >= 4.6, < 5.0     # typing_extensions module
 python-dotenv        == 1.0.*          # load environment variables from .env file
+werkzeug             == 3.0.*          # for the development server
 
 Scrapy               == 2.11.*         # web scraping framework
 flet                 == 0.10.*         # interactive apps for web, desktop and mobile (flutter)
