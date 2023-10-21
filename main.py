@@ -37,12 +37,11 @@
 import sys
 
 
-if sys.version_info < (3, 10):
-    raise RuntimeError("This program requires Python 3.10")
+if sys.version_info < (3, 8):
+    raise RuntimeError("This program requires Python 3.8")
 
 
 import logging
-
 import flet as ft
 
 from src.app import home_page
