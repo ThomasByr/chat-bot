@@ -28,7 +28,7 @@ class TypingIndicator(ft.Row):
             ft.Text(
                 f"{username} is typing...", italic=True, color=ft.colors.GREY, size=12
             ),
-            ft.Icon(ft.icons.PENDING, color=ft.colors.GREY, size=12)
+            ft.Icon(ft.icons.PENDING, color=ft.colors.GREY, size=12),
         ]
 
 

@@ -31,20 +31,14 @@ class Model:
         try:
             # load the model from cache/models
             enable_proxy()
-            self.pipe = pipeline(
-                task, os.path.join(self.cache, self.name)
-            )
+            self.pipe = pipeline(task, os.path.join(self.cache, self.name))
             disable_proxy()
             self.logger.info("Model loaded from cache")
         except:  # noqa
             # download the model
             enable_proxy()
-            self.pipe = pipeline(
-                task, model=model, tokenizer=tokenizer
-            )
-            self.pipe.save_pretrained(
-                os.path.join(self.cache, self.name)
-            )
+            self.pipe = pipeline(task, model=model, tokenizer=tokenizer)
+            self.pipe.save_pretrained(os.path.join(self.cache, self.name))
             disable_proxy()
             self.logger.info("Model downloaded from latest endpoint")
 
@@ -68,11 +62,9 @@ class Model:
 
     def get_build_response(self, message: str) -> str:
         """Get the response from the model"""
-        response = self.pipe(
-            question=message, context=self.context
-        )
+        response = self.pipe(question=message, context=self.context)
         if response["score"] < self.config["threshold"]:
-            # pipeline self.gp_context + 
+            # pipeline self.gp_context +
             return choice(["Je ne comprends pas", "Je ne sais pas"])
         return response["answer"]
 
