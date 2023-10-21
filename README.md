@@ -76,6 +76,13 @@ Simply sign-in or sign-up to the app, and you will be able to chat with the bot 
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
 | ![Sign In](assets/images/signin.png) | ![Sign Up](assets/images/signup.png) | ![Home Page](assets/images/home.png) |
 
+Build the app for your platform with :
+
+```bash
+# pip install pyinstaller
+flet pack main.py --add-data "assets:assets" --name chat-bot
+```
+
 ## 🧑‍🏫 Contributing
 
 If you ever want to contribute, either request the contributor status, or, more manually, fork the repo and make a pull request !
@@ -162,9 +169,9 @@ Please read the [changelog](changelog.md) file for the full history !
 **TODO** (first implementation version)
 
 - [ ] add a "forgot password", "change password" and "delete account" feature
-- [ ] initial message when the user first connects
+- [x] initial message when the user first connects
 - [ ] use custom data
-- [ ] typing indicator for the bot
+- [x] typing indicator for the bot
 
 **Known Bugs** (latest fix)
 
