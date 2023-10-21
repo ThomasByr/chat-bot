@@ -1,7 +1,14 @@
 import logging
 import flet as ft
 
-from .widgets import Message, MessageType, ChatMessage, SignInForm, SignUpForm
+from .widgets import (
+    Message,
+    MessageType,
+    ChatMessage,
+    SignInForm,
+    SignUpForm,
+    TypingIndicator,
+)
 from ..db import UsersDB
 from ..bot import Model
 
@@ -18,14 +25,15 @@ def home_page(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
 
     logger.info("loading model")
+    bot_name = "Chat Flet Messenger Bot"
     model = Model()  # new model per session
 
     # %% Functions
-    def dropdown_changed(e):
+    def dropdown_changed(_):
         new_message.value = new_message.value + emoji_list.value
         page.update()
 
-    def close_banner(e):
+    def close_banner(_):
         page.banner.open = False
         page.update()
 
@@ -34,7 +42,7 @@ def home_page(page: ft.Page):
         dlg.open = True
         page.update()
 
-    def close_dlg(e):
+    def close_dlg(_):
         dlg.open = False
         page.route = "/"
         page.update()
@@ -69,6 +77,8 @@ def home_page(page: ft.Page):
             m = ChatMessage(message)
         elif message.message_type == MessageType.LOGIN_MSG:
             m = ft.Text(message.text, italic=True, color=ft.colors.WHITE, size=12)
+        elif message.message_type == MessageType.TYPING:
+            m = TypingIndicator(message.user_name)
         chat.controls.append(m)
         page.update()
 
@@ -89,11 +99,25 @@ def home_page(page: ft.Page):
         tmp = new_message.value
         new_message.value = ""
         new_message.focus()
+
+        # typing indicator
+        page.pubsub.send_all(
+            Message(
+                user_name=bot_name,
+                text="",
+                message_type=MessageType.TYPING,
+            )
+        )
         res = build_response(tmp)
+        # find and remove last typing indicator without the risk of removing a message
+        for i, c in enumerate(chat.controls):
+            if isinstance(c, TypingIndicator):
+                del chat.controls[i]
+                break
         if res:
             page.pubsub.send_all(
                 Message(
-                    user_name="Chat Flet Messenger Bot",
+                    user_name=bot_name,
                     text=res,
                     message_type=MessageType.CHAT_MSG,
                 )
@@ -272,6 +296,14 @@ def home_page(page: ft.Page):
                                 on_click=send_message_click,
                             ),
                         ],
+                    )
+                )
+                # make chat bot say hello
+                page.pubsub.send_all(
+                    Message(
+                        user_name=bot_name,
+                        text=model.build_welcome_msg(page.session.get("user")),
+                        message_type=MessageType.CHAT_MSG,
                     )
                 )
 

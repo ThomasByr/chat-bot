@@ -1,37 +1,51 @@
 import os
 import logging
 
+from random import choice
+
 import pandas as pd
 import yaml as yml
 from transformers import pipeline
+
+from ..helper.capture import enable_proxy, disable_proxy
 
 
 __all__ = ["Model"]
 
 
 class Model:
-    name = "camembert_sfp"
-    config_path = os.path.join("config", f"{name}.yml")
-    models_cache = os.path.join("cache", "models")
+    name = "camembert_sfp"  # classifier
+    path = os.path.join("config", f"{name}.yml")
+    cache = os.path.join("cache", "models")
 
     def __init__(self):
         self.logger = logging.getLogger("model")
 
-        with open(self.config_path, "r") as f:
-            config = yml.safe_load(f)
+        with open(self.path, "r") as f:
+            self.config: list[str] = yml.safe_load(f)
 
-        task: str = config["task"]
-        model: str = config["model"]
+        task = self.config["task"]
+        model = self.config["model"]
         tokenizer = model[::]
 
         try:
             # load the model from cache/models
-            self.pipe = pipeline(task, os.path.join(self.models_cache, self.name))
+            enable_proxy()
+            self.pipe = pipeline(
+                task, os.path.join(self.cache, self.name)
+            )
+            disable_proxy()
             self.logger.info("Model loaded from cache")
-        except OSError:
+        except:  # noqa
             # download the model
-            self.pipe = pipeline(task, model=model, tokenizer=tokenizer)
-            self.pipe.save_pretrained(os.path.join(self.models_cache, self.name))
+            enable_proxy()
+            self.pipe = pipeline(
+                task, model=model, tokenizer=tokenizer
+            )
+            self.pipe.save_pretrained(
+                os.path.join(self.cache, self.name)
+            )
+            disable_proxy()
             self.logger.info("Model downloaded from latest endpoint")
 
         filename = os.path.join("assets", "sample.csv")
@@ -45,12 +59,24 @@ class Model:
                 f"nom batterie: {row['nom_batterie']}, "
                 f"puissance {row['pui_batterie_mAh']} mAh, "
                 f"tension {row['tension_V']} V, "
-                f"poids {row['poids_g']} g, "
-                f"prix {row['prix_euro']} euro ;\n"
+                f"poids {row['poids_g']} grammes, "
+                f"prix {row['prix_euro']} euros ;\n"
                 for _, row in raw_context.iterrows()
             )
         )
+        self.logger.info("Context loaded")
 
     def get_build_response(self, message: str) -> str:
         """Get the response from the model"""
-        return self.pipe(question=message, context=self.context)["answer"]
+        response = self.pipe(
+            question=message, context=self.context
+        )
+        if response["score"] < self.config["threshold"]:
+            # pipeline self.gp_context + 
+            return choice(["Je ne comprends pas", "Je ne sais pas"])
+        return response["answer"]
+
+    def build_welcome_msg(self, username: str) -> str:
+        welcome_msg: str = self.config["welcome_msg"]
+        # welcome_msg placeholder for the username : {username}
+        return welcome_msg.replace("{username}", username)

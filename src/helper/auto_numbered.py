@@ -5,24 +5,24 @@ __all__ = ["AutoNumberedEnum"]
 
 class AutoNumberedEnum(Enum):
     """
-  An enum that automatically assigns values to its members.\\
-  Just inherit from this class instead of `Enum` and you're good to go.
+    An enum that automatically assigns values to its members.\\
+    Just inherit from this class instead of `Enum` and you're good to go.
 
-  ## Example
-  ```py
-  >>> class MyEnum(AutoNumberedEnum):
-  ...   FOO = ()
-  ...   BAR = ()
-  ...   BAZ = ()
-  ...
-  >>> MyEnum.FOO
-  <MyEnum.FOO: 1>
-  >>> MyEnum.BAR
-  <MyEnum.BAR: 2>
-  >>> MyEnum.BAZ
-  <MyEnum.BAZ: 3>
-  ```
-  """
+    ## Example
+    ```py
+    >>> class MyEnum(AutoNumberedEnum):
+    ...   FOO = ()
+    ...   BAR = ()
+    ...   BAZ = ()
+    ...
+    >>> MyEnum.FOO
+    <MyEnum.FOO: 1>
+    >>> MyEnum.BAR
+    <MyEnum.BAR: 2>
+    >>> MyEnum.BAZ
+    <MyEnum.BAZ: 3>
+    ```
+    """
 
     def __new__(cls, *args) -> "AutoNumberedEnum":
         """

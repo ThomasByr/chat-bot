@@ -5,12 +5,13 @@ import flet as ft
 from ...helper.auto_numbered import AutoNumberedEnum
 
 
-__all__ = ["Message", "ChatMessage", "MessageType"]
+__all__ = ["Message", "ChatMessage", "MessageType", "TypingIndicator"]
 
 
 class MessageType(AutoNumberedEnum):
     CHAT_MSG = ()
     LOGIN_MSG = ()
+    TYPING = ()
 
 
 @dataclass
@@ -18,6 +19,17 @@ class Message:
     user_name: str
     text: str
     message_type: MessageType
+
+
+class TypingIndicator(ft.Row):
+    def __init__(self, username: str):
+        super().__init__()
+        self.controls = [
+            ft.Text(
+                f"{username} is typing...", italic=True, color=ft.colors.GREY, size=12
+            ),
+            ft.Icon(ft.icons.PENDING, color=ft.colors.GREY, size=12)
+        ]
 
 
 class ChatMessage(ft.Row):
