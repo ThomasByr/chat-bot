@@ -25,7 +25,7 @@ def home_page(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
 
     logger.info("loading model")
-    bot_name = "Chat Flet Messenger Bot"
+    bot_name = "NILS"
     model = Model()  # new model per session
 
     # %% Functions

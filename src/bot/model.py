@@ -1,6 +1,7 @@
 import os
 import logging
 
+import torch
 from random import choice
 
 import pandas as pd
@@ -28,16 +29,17 @@ class Model:
         model = self.config["model"]
         tokenizer = model[::]
 
+        device = 0 if torch.cuda.is_available() else -1 # try using gpu
         try:
             # load the model from cache/models
             enable_proxy()
-            self.pipe = pipeline(task, os.path.join(self.cache, self.name))
+            self.pipe = pipeline(task, os.path.join(self.cache, self.name), device=device)
             disable_proxy()
             self.logger.info("Model loaded from cache")
         except:  # noqa
             # download the model
             enable_proxy()
-            self.pipe = pipeline(task, model=model, tokenizer=tokenizer)
+            self.pipe = pipeline(task, model=model, tokenizer=tokenizer, device=device)
             self.pipe.save_pretrained(os.path.join(self.cache, self.name))
             disable_proxy()
             self.logger.info("Model downloaded from latest endpoint")
@@ -58,6 +60,9 @@ class Model:
                 for _, row in raw_context.iterrows()
             )
         )
+        with open(os.path.join("assets", "sentences.txt"), "r") as f:
+            self.context += f.read()
+
         self.logger.info("Context loaded")
 
     def get_build_response(self, message: str) -> str:
@@ -66,7 +71,7 @@ class Model:
         if response["score"] < self.config["threshold"]:
             # pipeline self.gp_context +
             return choice(["Je ne comprends pas", "Je ne sais pas"])
-        return response["answer"]
+        return f"{response['answer'].strip()} ({response['score']})"
 
     def build_welcome_msg(self, username: str) -> str:
         welcome_msg: str = self.config["welcome_msg"]
