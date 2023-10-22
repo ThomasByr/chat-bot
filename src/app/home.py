@@ -19,7 +19,7 @@ def home_page(page: ft.Page):
     logger = logging.getLogger("home_page")
     logger.info("starting home page")
 
-    page.title = "Chat Flet Messenger Bot"
+    page.title = "Chat Flet NILS"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.theme_mode = ft.ThemeMode.DARK
@@ -141,7 +141,7 @@ def home_page(page: ft.Page):
     principal_content = ft.Column(
         [
             ft.Icon(ft.icons.WECHAT, size=200, color=ft.colors.BLUE),
-            ft.Text(value="Chat Flet Messenger Bot", size=50, color=ft.colors.WHITE),
+            ft.Text(value="Chat Flet NILS", size=50, color=ft.colors.WHITE),
         ],
         height=400,
         width=600,
@@ -235,7 +235,7 @@ def home_page(page: ft.Page):
             )
         ],
         actions_alignment="center",
-        on_dismiss=lambda e: logger.debug("Dialog dismissed!"),
+        on_dismiss=lambda _: logger.debug("Dialog dismissed!"),
     )
 
     # %% Routes
@@ -265,7 +265,7 @@ def home_page(page: ft.Page):
                     ft.Row(
                         [
                             ft.Text(
-                                value="Chat Flet Messenger Bot", color=ft.colors.WHITE
+                                value="Chat Flet NILS", color=ft.colors.WHITE
                             ),
                             ft.ElevatedButton(
                                 text="Log Out",
