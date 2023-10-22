@@ -29,11 +29,13 @@ class Model:
         model = self.config["model"]
         tokenizer = model[::]
 
-        device = 0 if torch.cuda.is_available() else -1 # try using gpu
+        device = 0 if torch.cuda.is_available() else -1  # try using gpu
         try:
             # load the model from cache/models
             enable_proxy()
-            self.pipe = pipeline(task, os.path.join(self.cache, self.name), device=device)
+            self.pipe = pipeline(
+                task, os.path.join(self.cache, self.name), device=device
+            )
             disable_proxy()
             self.logger.info("Model loaded from cache")
         except:  # noqa
