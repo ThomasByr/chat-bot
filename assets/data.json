@@ -1,0 +1,2496 @@
+[
+    {
+        "Brand": [
+            "EVE"
+        ],
+        "Model": [
+            "ICR18650-26V"
+        ],
+        "Capacity": [
+            "2550mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1275mA Standard",
+            "2550mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "1275mA Standard",
+            "7650mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "BAK"
+        ],
+        "Model": [
+            "18650C4"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "440mA Standard",
+            "2200mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "440mA Standard",
+            "2200mA Maximum"
+        ],
+        "Description": [
+            "Turquoise Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Cham"
+        ],
+        "Model": [
+            "CMICR18650F"
+        ],
+        "Capacity": [
+            "2000mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "Grey Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "BAK"
+        ],
+        "Model": [
+            "B18650CA"
+        ],
+        "Capacity": [
+            "2250mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1100mA Standard",
+            "2250mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "1100mA Standard",
+            "4500mA Maximum"
+        ],
+        "Description": [
+            "Green (Light) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Dyson"
+        ],
+        "Model": [
+            "INR-20700A"
+        ],
+        "Capacity": [
+            "3000mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "3000mA Standard",
+            "3000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "560mA Standard",
+            "35000mA Maximum"
+        ],
+        "Description": [
+            "Grey Cell Wrapper",
+            "Black Insulator Ring",
+            "20700 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "ATL"
+        ],
+        "Model": [
+            "INR18650"
+        ],
+        "Capacity": [
+            "2000mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Cham"
+        ],
+        "Model": [
+            "CMICR18650F8"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Grey Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "BFN"
+        ],
+        "Model": [
+            "18650-2200"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "440mA Standard",
+            "2200mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "440mA Standard",
+            "6600mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "Black Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "BAK"
+        ],
+        "Model": [
+            "C18650CC"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "2600mA Standard",
+            "2600mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "1300mA Standard",
+            "5200mA Maximum"
+        ],
+        "Description": [
+            "Gray Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGAAS31865"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "430mA Standard",
+            "3225mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "DLG"
+        ],
+        "Model": [
+            "N18650"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1100mA Standard",
+            "2200mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "440mA Standard",
+            "4400mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "A123Systems"
+        ],
+        "Model": [
+            "APR18650M1A"
+        ],
+        "Capacity": [
+            "1100mAh Rated"
+        ],
+        "Voltage": [
+            "3.30V Nominal"
+        ],
+        "Charging": [
+            "3.60V Maximum",
+            "1500mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.00V Cutoff",
+            "5500mA Standard",
+            "30000mA Maximum"
+        ],
+        "Description": [
+            "Yellow Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGAAMF11865"
+        ],
+        "Capacity": [
+            "2150mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "430mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Purple Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Lei"
+        ],
+        "Model": [
+            "INR-18650-CE"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Green Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "KMASHI"
+        ],
+        "Model": [
+            "18650KAHL"
+        ],
+        "Capacity": [
+            "--- mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Orange Cell Wrapper",
+            "Grey Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGAAHD21865 (ICR18650HD2)"
+        ],
+        "Capacity": [
+            "2000mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1000mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "400mA Standard",
+            "25000mA Maximum"
+        ],
+        "Description": [
+            "Violet Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Lishen (LS)"
+        ],
+        "Model": [
+            "IFR-18650EC"
+        ],
+        "Capacity": [
+            "1500mAh Rated"
+        ],
+        "Voltage": [
+            "3.20V Nominal"
+        ],
+        "Charging": [
+            "3.65V Maximum",
+            "1400mA Standard",
+            "2800mA Maximum"
+        ],
+        "Discharging": [
+            "2.00V Cutoff",
+            "300mA Standard",
+            "5000mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGGBF1L1865 (INR18650F1L)"
+        ],
+        "Capacity": [
+            "3350mAh Rated"
+        ],
+        "Voltage": [
+            "3.63V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "975mA Standard",
+            "1625mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "650mA Standard",
+            "4875mA Maximum"
+        ],
+        "Description": [
+            "Purple (Light) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGES318650"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1100mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "430mA Standard",
+            "3225mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGES218650 (ICR18650S2)"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "430mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "430mA Standard",
+            "4300mA Maximum"
+        ],
+        "Description": [
+            "Peach Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGEBE11865 (ICR18650E1)"
+        ],
+        "Capacity": [
+            "3200mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1550mA Standard",
+            "2170mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "620mA Standard",
+            "4650mA Maximum"
+        ],
+        "Description": [
+            "Purple Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGEBMJ11865 (INR18650MJ1)"
+        ],
+        "Capacity": [
+            "3500mAh Rated"
+        ],
+        "Voltage": [
+            "3.63V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1700mA Standard",
+            "3400mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "680mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Green Cell Wrapper",
+            "Tan Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGEBMF21865"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "500mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Purple (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGEP218650"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Purple Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGEAMF11865 (ICR18650MF1)"
+        ],
+        "Capacity": [
+            "2150mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "430mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Purple Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDS318650 (ICR18650S3)"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "420mA Standard",
+            "3225mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGEAS318650 (ICR18650S3)"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "430mA Standard",
+            "4300mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDS218650 (ICR18650S2)"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "430mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "430mA Standard",
+            "4300mA Maximum"
+        ],
+        "Description": [
+            "Peach Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDC118650 (ICR18650C1)"
+        ],
+        "Capacity": [
+            "2800mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1350mA Standard",
+            "2700mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "540mA Standard",
+            "4050mA Maximum"
+        ],
+        "Description": [
+            "Brown Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBMJ11865 (INR18650MJ1)"
+        ],
+        "Capacity": [
+            "3500mAh Rated"
+        ],
+        "Voltage": [
+            "3.63V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1700mA Standard",
+            "3400mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "680mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Green Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBMG11865 (INR18650MG1)"
+        ],
+        "Capacity": [
+            "2850mAh Rated"
+        ],
+        "Voltage": [
+            "3.62V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1425mA Standard",
+            "2850mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "570mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Purple Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBMH11865 (ICR18650MH1)"
+        ],
+        "Capacity": [
+            "3200mAh Rated"
+        ],
+        "Voltage": [
+            "3.67V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1550mA Standard",
+            "3100mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "620mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Turquoise Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBHE41865 (INR18650HE4)"
+        ],
+        "Capacity": [
+            "2500mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "500mA Standard",
+            "20000mA Maximum"
+        ],
+        "Description": [
+            "Yellow Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBM361865 (INR18650M36)"
+        ],
+        "Capacity": [
+            "3440mAh Rated"
+        ],
+        "Voltage": [
+            "3.63V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1000mA Standard",
+            "2330mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "670mA Standard",
+            "5000mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBHG21865 (INR18650HG2)"
+        ],
+        "Capacity": [
+            "3000mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1500mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.00V Cutoff",
+            "600mA Standard",
+            "20000mA Maximum"
+        ],
+        "Description": [
+            "Brown Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBHE21865 (IMR18650HE2)"
+        ],
+        "Capacity": [
+            "2500mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.00V Cutoff",
+            "500mA Standard",
+            "20000mA Maximum"
+        ],
+        "Description": [
+            "Red (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBB11865 (ICR18650B1)"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1275mA Standard",
+            "5100mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "510mA Standard",
+            "2250mA Maximum"
+        ],
+        "Description": [
+            "Turquoise Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBB31865 (ICR18650B3)"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "2500mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "500mA Standard",
+            "3750mA Maximum"
+        ],
+        "Description": [
+            "Purple (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBHE21865 (IMR18650HE2)"
+        ],
+        "Capacity": [
+            "2500mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "500mA Standard",
+            "20000mA Maximum"
+        ],
+        "Description": [
+            "Red Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBB41865 (ICR18650B4)"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "2500mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "500mA Standard",
+            "3750mA Maximum"
+        ],
+        "Description": [
+            "Grey Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBD11865 (ICR18650D1)"
+        ],
+        "Capacity": [
+            "3000mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1450mA Standard",
+            "2900mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "580mA Standard",
+            "5800mA Maximum"
+        ],
+        "Description": [
+            "Pink Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDB318650"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Tan Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDBC21865 (ICR18650C2)"
+        ],
+        "Capacity": [
+            "2800mAh Rated"
+        ],
+        "Voltage": [
+            "3.72V Nominal"
+        ],
+        "Charging": [
+            "4.30V Maximum",
+            "540mA Standard",
+            "2700mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "540mA Standard",
+            "5400mA Maximum"
+        ],
+        "Description": [
+            "Orange Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDB218650 (ICR18650B2)"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "2500mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "500mA Standard",
+            "3750mA Maximum"
+        ],
+        "Description": [
+            "Pink Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDB118650 (ICR18650B1)"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1275mA Standard",
+            "2550mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "510mA Standard",
+            "5100mA Maximum"
+        ],
+        "Description": [
+            "Teal Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAS41865"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "750mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Purple (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAMF11865"
+        ],
+        "Capacity": [
+            "2150mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "430mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Purple Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAS31865 (ICR18650S3)"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "430mA Standard",
+            "3225mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAME11865 (ICR18650ME1)"
+        ],
+        "Capacity": [
+            "2100mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1000mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "4200mA Maximum"
+        ],
+        "Description": [
+            "Orange Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAHD2C1865"
+        ],
+        "Capacity": [
+            "2100mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1050mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "420mA Standard",
+            "20000mA Maximum"
+        ],
+        "Description": [
+            "Peach Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAHD41865 (ICR18650HD4)"
+        ],
+        "Capacity": [
+            "2000mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1000mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.00V Cutoff",
+            "400mA Standard",
+            "25000mA Maximum"
+        ],
+        "Description": [
+            "Tan Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAHB21865 (ICR18650HB2)"
+        ],
+        "Capacity": [
+            "1500mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "750mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "300mA Standard",
+            "30000mA Maximum"
+        ],
+        "Description": [
+            "Teal Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAHB61865"
+        ],
+        "Capacity": [
+            "1500mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "750mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.00V Cutoff",
+            "300mA Standard",
+            "30000mA Maximum"
+        ],
+        "Description": [
+            "Red (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDAHA11865 (ICR18650HA1)"
+        ],
+        "Capacity": [
+            "1300mAh Rated"
+        ],
+        "Voltage": [
+            "3.68V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "650mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "260mA Standard",
+            "15000mA Maximum"
+        ],
+        "Description": [
+            "Green (Light) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDA2E18650"
+        ],
+        "Capacity": [
+            "2250mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1000mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "500mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Grey Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGDA418650"
+        ],
+        "Capacity": [
+            "2400mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1150mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "480mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Yellow Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGCS218650 (ICR18650S2)"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "430mA Standard",
+            "2150mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "430mA Standard",
+            "4300mA Maximum"
+        ],
+        "Description": [
+            "Peach Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGCS318650"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1075mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "430mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGCH118650"
+        ],
+        "Capacity": [
+            "--- mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Yellow Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGCAS31865"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "2.70V Cutoff",
+            "440mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGCP218650"
+        ],
+        "Capacity": [
+            "2500mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "480mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Purple (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABHG21865 (INR18650HG2)"
+        ],
+        "Capacity": [
+            "3000mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1500mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.00V Cutoff",
+            "600mA Standard",
+            "20000mA Maximum"
+        ],
+        "Description": [
+            "Brown Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABF1L1865 (INR18650F1L)"
+        ],
+        "Capacity": [
+            "3350mAh Rated"
+        ],
+        "Voltage": [
+            "3.63V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "975mA Standard",
+            "1625mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "650mA Standard",
+            "4875mA Maximum"
+        ],
+        "Description": [
+            "Purple (Light) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABE11865 (ICR18650E1)"
+        ],
+        "Capacity": [
+            "3200mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1550mA Standard",
+            "2170mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "620mA Standard",
+            "4650mA Maximum"
+        ],
+        "Description": [
+            "Teal Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABD11865 (ICR18650D1)"
+        ],
+        "Capacity": [
+            "3000mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1450mA Standard",
+            "2900mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "580mA Standard",
+            "5800mA Maximum"
+        ],
+        "Description": [
+            "Pink Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABD21865 (INR18650D2)"
+        ],
+        "Capacity": [
+            "2950mAh Rated"
+        ],
+        "Voltage": [
+            "3.64V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1475mA Standard",
+            "2950mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "590mA Standard",
+            "4425mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABC21865 (ICR18650C2)"
+        ],
+        "Capacity": [
+            "2800mAh Rated"
+        ],
+        "Voltage": [
+            "3.72V Nominal"
+        ],
+        "Charging": [
+            "4.30V Maximum",
+            "1350mA Standard",
+            "2700mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "540mA Standard",
+            "5400mA Maximum"
+        ],
+        "Description": [
+            "Orange Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABC11865 (ICR18650C1)"
+        ],
+        "Capacity": [
+            "2800mAh Rated"
+        ],
+        "Voltage": [
+            "3.75V Nominal"
+        ],
+        "Charging": [
+            "4.35V Maximum",
+            "1350mA Standard",
+            "2700mA Maximum"
+        ],
+        "Discharging": [
+            "3.00V Cutoff",
+            "540mA Standard",
+            "4050mA Maximum"
+        ],
+        "Description": [
+            "Brown (Light) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "HYB"
+        ],
+        "Model": [
+            "ICR18650NH (MH28822)"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "440mA Standard",
+            "2200mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "440mA Standard",
+            "6600mA Maximum"
+        ],
+        "Description": [
+            "Green (Light) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABC41865 (INR18650C4)"
+        ],
+        "Capacity": [
+            "2750mAh Rated"
+        ],
+        "Voltage": [
+            "3.65V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1375mA Standard",
+            "2750mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "550mA Standard",
+            "5500mA Maximum"
+        ],
+        "Description": [
+            "Brown Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGAAS41865"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "750mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Purple (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Hitachi Maxell (HM)"
+        ],
+        "Model": [
+            "INR18650PB1"
+        ],
+        "Capacity": [
+            "1450mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "3.70V Maximum",
+            "1000mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.50V Cutoff",
+            "290mA Standard",
+            "15000mA Maximum"
+        ],
+        "Description": [
+            "Grey (Dark) Cell Wrapper",
+            "Black Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "LG"
+        ],
+        "Model": [
+            "LGABB41865 (ICR18650B4)"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1250mA Standard",
+            "2500mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "500mA Standard",
+            "5000mA Maximum"
+        ],
+        "Description": [
+            "Gray Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Hitachi Maxell (HM)"
+        ],
+        "Model": [
+            "ICR18650PA"
+        ],
+        "Capacity": [
+            "1500mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Blue (Dark) Cell Wrapper",
+            "Black Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Highstar"
+        ],
+        "Model": [
+            "ISR18650-1300"
+        ],
+        "Capacity": [
+            "1300mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "Grey (Dark) Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "HYB"
+        ],
+        "Model": [
+            "ICR18650NM"
+        ],
+        "Capacity": [
+            "--- mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Turquoise Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "GP Batteries"
+        ],
+        "Model": [
+            "ICR18650-26F"
+        ],
+        "Capacity": [
+            "2600mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1300mA Standard",
+            "2000mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "520mA Standard",
+            "5200mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Great Power"
+        ],
+        "Model": [
+            "ICR18650 2.2Ah-AT"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Orange Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "GP Batteries"
+        ],
+        "Model": [
+            "GP1865L180"
+        ],
+        "Capacity": [
+            "1800mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1080mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "2.80V Cutoff",
+            "360mA Standard",
+            "1800mA Maximum"
+        ],
+        "Description": [
+            "Orange Cell Wrapper",
+            "Black Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "Great Power"
+        ],
+        "Model": [
+            "ICR 18650"
+        ],
+        "Capacity": [
+            "2000mAh Rated"
+        ],
+        "Voltage": [
+            "3.70V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "2000mA Standard",
+            "4000mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "2000mA Standard",
+            "4000mA Maximum"
+        ],
+        "Description": [
+            "Orange Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "GP Batteries"
+        ],
+        "Model": [
+            "GP18650CH"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "440mA Standard",
+            "2200mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "440mA Standard",
+            "6600mA Maximum"
+        ],
+        "Description": [
+            "Yellow (Dark) Cell Wrapper",
+            "Black Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "FP"
+        ],
+        "Model": [
+            "18650-2000mAh"
+        ],
+        "Capacity": [
+            "2000mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "FST"
+        ],
+        "Model": [
+            "18650-2000mAh"
+        ],
+        "Capacity": [
+            "2000mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1000mA Standard",
+            "2000mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "1000mA Standard",
+            "10000mA Maximum"
+        ],
+        "Description": [
+            "Blue Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "FP"
+        ],
+        "Model": [
+            "18650-1800mAh"
+        ],
+        "Capacity": [
+            "1800mAh Rated"
+        ],
+        "Voltage": [
+            "--- V Nominal"
+        ],
+        "Charging": [
+            "--- V Maximum",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Discharging": [
+            "--- V Cutoff",
+            "--- mA Standard",
+            "--- mA Maximum"
+        ],
+        "Description": [
+            "Green Cell Wrapper",
+            "White Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "FST"
+        ],
+        "Model": [
+            "18650-2200mAh"
+        ],
+        "Capacity": [
+            "2200mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1100mA Standard",
+            "2200mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "2200mA Standard",
+            "8800mA Maximum"
+        ],
+        "Description": [
+            "Turquoise Cell Wrapper",
+            "Grey Insulator Ring",
+            "18650 Form Factor"
+        ]
+    },
+    {
+        "Brand": [
+            "FST"
+        ],
+        "Model": [
+            "20650-3350mAh"
+        ],
+        "Capacity": [
+            "3350mAh Rated"
+        ],
+        "Voltage": [
+            "3.60V Nominal"
+        ],
+        "Charging": [
+            "4.20V Maximum",
+            "1675mA Standard",
+            "3350mA Maximum"
+        ],
+        "Discharging": [
+            "2.75V Cutoff",
+            "1675mA Standard",
+            "6700mA Maximum"
+        ],
+        "Description": [
+            "Blue (Dark) Cell Wrapper",
+            "White Insulator Ring",
+            "20650 Form Factor"
+        ]
+    }
+]
