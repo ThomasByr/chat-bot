@@ -2,4 +2,4 @@ task: question-answering
 model: etalab-ia/camembert-base-squadFR-fquad-piaf
 
 threshold: 0.3
-welcome_msg: Bonjour {username}, je suis le Chat Flet Messenger Bot, comment puis-je vous aider ?
+welcome_msg: Bonjour {username}, je suis NILS, comment puis-je vous aider ?
