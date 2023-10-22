@@ -264,9 +264,7 @@ def home_page(page: ft.Page):
                 page.add(
                     ft.Row(
                         [
-                            ft.Text(
-                                value="Chat Flet NILS", color=ft.colors.WHITE
-                            ),
+                            ft.Text(value="Chat Flet NILS", color=ft.colors.WHITE),
                             ft.ElevatedButton(
                                 text="Log Out",
                                 bgcolor=ft.colors.RED_800,

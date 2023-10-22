@@ -50,7 +50,7 @@ class Model:
         filename = os.path.join("assets", "sample.csv")
         if os.path.exists(f := os.path.join("assets", "data.json")):
             filename = f
-             # list of dict with Brand, Model, Capacity, Voltage keys
+            # list of dict with Brand, Model, Capacity, Voltage keys
             with open(f, "r") as f:
                 raw_context = json.load(f)
             self.context = "".join(
@@ -89,7 +89,7 @@ class Model:
         if response["score"] < self.config["threshold"]:
             # pipeline self.gp_context +
             return choice(["Je ne comprends pas", "Je ne sais pas"])
-        return response['answer'].strip()
+        return response["answer"].strip()
 
     def build_welcome_msg(self, username: str) -> str:
         welcome_msg: str = self.config["welcome_msg"]
