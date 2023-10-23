@@ -115,7 +115,7 @@ Happy coding ! 🙂
 >   <img alt="Warning" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/warning.svg">
 > </picture><br>
 >
-> This repository is a template. Working source code is licensed under AGPL, the rest is unlicensed. If you whish not to use source code, please use the license of your choice. The following license only applies to the template itself and is not legal advice. <FONT COLOR="#ff0000"><u>The license of this repo does not apply to the resources used in it.</u></FONT> Please check the license of each resource before using them.
+> This repository is an app and might be exported as a standalone binary. Working source code is licensed under AGPL, the text assets are unlicensed, images and logos have their own section. The following license only applies to the template itself and is not legal advice. <FONT COLOR="#ff0000"><u>The license of this repo does not apply to the resources used in it.</u></FONT> Please check the license of each resource before using them.
 
 This project is licensed under the AGPL-3.0 new or revised license. Please read the [LICENSE](LICENSE.md) file. Additionally :
 
@@ -161,6 +161,7 @@ Please read the [changelog](changelog.md) file for the full history !
 - changed model to camembert-base
 - the model now outputs heatmaps
 - data loader can now "slide" context windows
+- added new data thanks to @LouiseCouture
 
 </details>
 
