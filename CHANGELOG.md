@@ -15,3 +15,4 @@
 - changed model to camembert-base
 - the model now outputs heatmaps
 - data loader can now "slide" context windows
+- added new data thanks to @LouiseCouture
