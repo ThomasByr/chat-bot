@@ -1,4 +1,20 @@
+import argparse
+import scrapy
+from scrapy.crawler import CrawlerProcess
+from batterie.batterie.spiders import bat_spider
 
-URL_1="https://www.catl.com/en/uploads/1/file/public/202107/20210708175207_fl5p1gp1gs.pdf"
-URL_2="https://www.listentech.com/product-category/radio-frequency/150mhz/accessories-150mhz/batteries-150mhz/#"
-#scrapy genspider trustpilotspider https://www.listentech.com/product-category/radio-frequency/150mhz/accessories-150mhz/batteries-150mhz/#
+# python webScrap.py --output data.json
+
+def run_spider(args):
+    process = CrawlerProcess(settings={
+        'FEED_FORMAT': 'json',
+        'FEED_URI': 'output.json'
+    })
+    process.crawl(bat_spider.bat_spider)
+    process.start()
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run Scrapy Spider")
+    parser.add_argument("--output", help="Output filename", default="output.json")
+    args = parser.parse_args()
+    run_spider(args)
