@@ -41,12 +41,7 @@ if sys.version_info < (3, 8):
     raise RuntimeError("This program requires Python 3.8")
 
 
-import logging
-import flet as ft
-
-from src.app import home_page
-from src.helper.logger import init_logger
+from src.helper.cli import gp_parser, App
 
 if __name__ == "__main__":
-    init_logger(logging.INFO)
-    ft.app(target=home_page)  # , view=ft.WEB_BROWSER)
+    App().check_args(gp_parser().parse_args()).run()
