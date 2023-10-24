@@ -1,5 +1,6 @@
 import os
 import logging
+import warnings
 
 import torch
 from random import choice
@@ -13,6 +14,8 @@ from ..helper.capture import enable_proxy, disable_proxy
 
 
 __all__ = ["Model"]
+
+warnings.filterwarnings("ignore")
 
 
 class Model:

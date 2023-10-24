@@ -89,6 +89,8 @@ def home_page(page: ft.Page):
         return model.get_build_response(message)
 
     def send_message_click(_):
+        if not new_message.value or new_message.value.isspace():
+            return
         page.pubsub.send_all(
             Message(
                 user_name=page.session.get("user"),
@@ -275,6 +277,7 @@ def home_page(page: ft.Page):
         if page.route == "/chat":
             if page.session.contains_key("user"):
                 page.clean()
+                close_banner(None)
                 page.add(
                     ft.Row(
                         [
