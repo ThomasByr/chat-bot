@@ -83,6 +83,16 @@ Build the app for your platform with :
 flet pack main.py --add-data "assets:assets" --name chat-bot
 ```
 
+The simple cli allows you to do 3 simple things :
+
+| argument        | hint                       | default          |
+| --------------- | -------------------------- | ---------------- |
+| `--help`        | show help message and exit |                  |
+| `--version`     | show program's version     |                  |
+| `run [-d\|r]`   | run the app                | release          |
+| `do pre`        | (re)run the pre-training   |                  |
+| `do scrap [-o]` | (re)run the web scraper    | assets/data.json |
+
 ## 🧑‍🏫 Contributing
 
 If you ever want to contribute, either request the contributor status, or, more manually, fork the repo and make a pull request !
@@ -162,6 +172,7 @@ Please read the [changelog](changelog.md) file for the full history !
 - the model now outputs heatmaps
 - data loader can now "slide" context windows
 - added new data thanks to @LouiseCouture
+- the model now complains if no GPU is connected
 
 </details>
 
