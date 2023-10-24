@@ -30,22 +30,27 @@ class Model:
         model = self.config["model"]
         tokenizer = model[::]
 
-        device = 0 if torch.cuda.is_available() else -1  # try using gpu
+        self.__device = 0 if torch.cuda.is_available() else -1  # try using gpu
         try:
             # load the model from cache/models
             enable_proxy()
             self.pipe = pipeline(
-                task, os.path.join(self.cache, self.name), device=device
+                task, os.path.join(self.cache, self.name), device=self.__device
             )
             disable_proxy()
             self.logger.info("Model loaded from cache")
         except:  # noqa
             # download the model
             enable_proxy()
-            self.pipe = pipeline(task, model=model, tokenizer=tokenizer, device=device)
+            self.pipe = pipeline(
+                task, model=model, tokenizer=tokenizer, device=self.__device
+            )
             self.pipe.save_pretrained(os.path.join(self.cache, self.name))
             disable_proxy()
             self.logger.info("Model downloaded from latest endpoint")
+
+        with open(os.path.join("assets", "sentences.txt"), "r") as f:
+            self.context = f.read()  # context sentences
 
         filename = os.path.join("assets", "sample.csv")
         if os.path.exists(f := os.path.join("assets", "data.json")):
@@ -53,13 +58,11 @@ class Model:
             # list of dict with Brand, Model, Capacity, Voltage keys
             with open(f, "r") as f:
                 raw_context = json.load(f)
-            self.context = "".join(
+            self.context += "".join(
                 (
                     f"nom batterie: {row['Brand'][0]} {row['Model'][0]}, "
-                    f"puissance {row['Capacity'][0]} mAh, "
-                    f"tension {row['Voltage'][0]} V, "
-                    f"poids inconnu, "
-                    f"prix inconnu ;\n"
+                    f"puissance {row['Capacity'][0].split()[0]}, "
+                    f"tension {row['Voltage'][0].split()[0]} ;\n"
                     for row in raw_context
                 )
             )
@@ -67,7 +70,7 @@ class Model:
         else:
             # nom_batterie,pui_batterie_mAh,tension_V,poids_g,prix_euro
             raw_context = pd.read_csv(filename)
-            self.context = "".join(
+            self.context += "".join(
                 (
                     f"nom batterie: {row['nom_batterie']}, "
                     f"puissance {row['pui_batterie_mAh']} mAh, "
@@ -77,18 +80,20 @@ class Model:
                     for _, row in raw_context.iterrows()
                 )
             )
-        with open(os.path.join("assets", "sentences.txt"), "r") as f:
-            self.context += f.read()
 
-        print(self.context)
+        self.logger.debug(f"context is being displayed\n\n---\n{self.context}\n---\n")
         self.logger.info("Context loaded")
+
+    def get_device(self) -> int:
+        """Get the device used by the model"""
+        return self.__device
 
     def get_build_response(self, message: str) -> str:
         """Get the response from the model"""
         response = self.pipe(question=message, context=self.context)
         if response["score"] < self.config["threshold"]:
-            # pipeline self.gp_context +
             return choice(["Je ne comprends pas", "Je ne sais pas"])
+        self.logger.debug(f"got response: {response}")
         return response["answer"].strip()
 
     def build_welcome_msg(self, username: str) -> str:

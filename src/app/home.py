@@ -37,8 +37,8 @@ def home_page(page: ft.Page):
         page.banner.open = False
         page.update()
 
-    def open_dlg():
-        page.dialog = dlg
+    def open_dlg(d):
+        page.dialog = d
         dlg.open = True
         page.update()
 
@@ -70,7 +70,7 @@ def home_page(page: ft.Page):
         db = UsersDB()
         if db.write_db(user, password):
             logger.info("Successfully Registered User...")
-            open_dlg()
+            open_dlg(dlg)
 
     def on_message(message: Message):
         if message.message_type == MessageType.CHAT_MSG:
@@ -136,6 +136,20 @@ def home_page(page: ft.Page):
         page.session.remove("user")
         page.route = "/"
         page.update()
+
+    def check_device():
+        if model.get_device() < 0:
+            logger.warning("No GPU found, using CPU instead")
+            page.banner = ft.Banner(
+                bgcolor=ft.colors.BLACK45,
+                leading=ft.Icon(ft.icons.ERROR, color=ft.colors.RED, size=40),
+                content=ft.Text("No GPU found, using CPU instead"),
+                actions=[
+                    ft.TextButton("Ok", on_click=close_banner),
+                ],
+            )
+            page.banner.open = True
+            page.update()
 
     # %% Application UI
     principal_content = ft.Column(
@@ -304,6 +318,7 @@ def home_page(page: ft.Page):
                         message_type=MessageType.CHAT_MSG,
                     )
                 )
+                check_device()
 
             else:
                 page.route = "/"
