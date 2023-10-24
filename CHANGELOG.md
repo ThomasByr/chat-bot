@@ -16,3 +16,4 @@
 - the model now outputs heatmaps
 - data loader can now "slide" context windows
 - added new data thanks to @LouiseCouture
+- the model now complains if no GPU is connected
