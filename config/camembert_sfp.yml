@@ -1,5 +1,5 @@
 task: question-answering
 model: etalab-ia/camembert-base-squadFR-fquad-piaf
 
-threshold: 0.3
+threshold: 0.0
 welcome_msg: Bonjour {username}, je suis NILS, comment puis-je vous aider ?
