@@ -21,9 +21,7 @@ def gp_parser() -> ArgumentParser:
 
     run_parser = subparsers.add_parser("run", help="run app")
     run_parser.add_argument("-d", "--debug", action="store_true", help="debug mode")
-    run_parser.add_argument(
-        "-r", "--release", action="store_true", help="release mode", default=True
-    )
+    run_parser.add_argument("-r", "--release", action="store_true", help="release mode")
 
     do_parser = subparsers.add_parser("do", help="do something")
     do_subparsers = do_parser.add_subparsers(dest="action", help="action to do")
@@ -57,7 +55,7 @@ class App:
         if nsp.command == "run":
             if nsp.debug:
                 if nsp.release:
-                    raise RuntimeError("debug and release are mutually exclusive")
+                    raise RuntimeError("--debug and --release are mutually exclusive")
                 self.__args.debug = True
 
         elif nsp.command == "do":
