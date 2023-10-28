@@ -16,14 +16,12 @@ def gp_parser() -> ArgumentParser:
     )
 
     subparsers = parser.add_subparsers(dest="command", help="command to run")
-    subparsers.add_parser("run", help="run app")
-    subparsers.add_parser("do", help="do something")
 
     run_parser = subparsers.add_parser("run", help="run app")
     run_parser.add_argument("-d", "--debug", action="store_true", help="debug mode")
     run_parser.add_argument("-r", "--release", action="store_true", help="release mode")
 
-    do_parser = subparsers.add_parser("do", help="do something")
+    do_parser = subparsers.add_parser("do", help="perform action")
     do_subparsers = do_parser.add_subparsers(dest="action", help="action to do")
     scrap_parser = do_subparsers.add_parser("scrap", help="scrap data")
     scrap_parser.add_argument(
