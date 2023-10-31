@@ -71,18 +71,26 @@ class Model:
             )
 
         else:
-            # nom_batterie,pui_batterie_mAh,tension_V,poids_g,prix_euro
+            # get each column of the csv file
+            # header is in the form of:
+            # name of the column (unit if any)
             raw_context = pd.read_csv(filename)
-            self.context += "".join(
-                (
-                    f"nom batterie: {row['nom_batterie']}, "
-                    f"puissance {row['pui_batterie_mAh']} mAh, "
-                    f"tension {row['tension_V']} V, "
-                    f"poids {row['poids_g']} grammes, "
-                    f"prix {row['prix_euro']} euros ;\n"
-                    for _, row in raw_context.iterrows()
+            header = raw_context.columns
+            # make a dict with the part of the header that is the name as key and the unit as value
+            # if no unit, value is None
+            units = {
+                col.split("(")[0].strip(): col.split("(")[1][:-1].strip()
+                if "(" in col
+                else ""
+                for col in header
+            }
+            for row in raw_context.iterrows():
+                self.context += "".join(
+                    # if ValueError, you might want to check encoding and delimiter of the csv file
+                    f"{scol} {row[1][col]} {units[scol]}, "
+                    for col, scol in zip(header, units, strict=True)
                 )
-            )
+                self.context += ";\n"
 
         self.logger.debug(f"context is being displayed\n\n---\n{self.context}\n---\n")
         self.logger.info("Context loaded")

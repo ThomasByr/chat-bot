@@ -1,4 +1,4 @@
-nom_batterie,pui_batterie_mAh,tension_V,poids_g,prix_euro
+nom batterie,puissance (mAh),tension (V),poids (grammes),prix (euros)
 AFG90EH,2500,3.7,45,12.99
 XF1AKPGM,3500,3.6,50,19.99
 LMG3P7EQ,2000,3.8,40,9.99
